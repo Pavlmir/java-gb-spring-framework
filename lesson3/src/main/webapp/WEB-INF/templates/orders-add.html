@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавить товар</title>
+</head>
+<body>
+<form th:action="@{'/orders/add'}" th:object="${order}" method="post">
+    ID: <input type="text" th:field="*{id}"/>
+    <br>
+    DATE: <input type="text" th:field="*{date}"/>
+    <br>
+    COST: <input type="text" th:field="*{cost}"/>
+    <br>
+    <button type="submit">Сохранить</button>
+</form>
+</body>
+</html>

@@ -19,6 +19,11 @@ public class CartConfiguration {
         return new Cart(productRepository);
     }
 
+    @Bean
+    public OrderRepository orderRepository() {
+        return new OrderRepository();
+    }
+
     public static class FirstWebApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
         @Override
