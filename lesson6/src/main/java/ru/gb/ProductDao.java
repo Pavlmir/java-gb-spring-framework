@@ -2,6 +2,7 @@ package ru.gb;
 
 import ru.gb.tables.Product;
 import org.springframework.stereotype.Component;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.NoResultException;
@@ -46,7 +47,7 @@ public class ProductDao {
             System.out.println("was bought by:");
             product.getCostumers().forEach(System.out::println);
         } catch (NoResultException e) {
-            System.out.println("Nobody bought "+ findById(id));
+            System.out.println("Nobody bought " + findById(id));
         }
     }
 

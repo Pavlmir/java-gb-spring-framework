@@ -66,7 +66,7 @@ public class CostumerDao {
             System.out.println("has in cart:");
             costumer.getProduct().forEach(System.out::println);
         } catch (NoResultException e) {
-            System.out.println(findById(id)+" has nothing in cart");
+            System.out.println(findById(id) + " has nothing in cart");
         }
     }
 

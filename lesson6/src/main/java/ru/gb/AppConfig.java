@@ -12,7 +12,9 @@ import javax.persistence.EntityManagerFactory;
 public class AppConfig {
 
     @Bean // бин для EntityManagerFactory
-    public EntityManagerFactory serviceFactory(){ return new ServiceFactory().getEntityManagerFactory(); }
+    public EntityManagerFactory serviceFactory() {
+        return new ServiceFactory().getEntityManagerFactory();
+    }
 
     @Bean // бин для покупателя
     public CostumerDao costumerDao(EntityManagerFactory emf) {

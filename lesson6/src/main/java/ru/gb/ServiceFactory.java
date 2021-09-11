@@ -13,7 +13,7 @@ public class ServiceFactory {
             .buildSessionFactory();
 
     @Autowired
-    public EntityManagerFactory getEntityManagerFactory(){
+    public EntityManagerFactory getEntityManagerFactory() {
         return entityManagerFactory;
     }
 }
