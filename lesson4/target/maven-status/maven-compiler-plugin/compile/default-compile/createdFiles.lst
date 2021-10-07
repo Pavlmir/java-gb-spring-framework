@@ -1,0 +1,7 @@
+ru\gb\domain\Order.class
+ru\gb\repository\OrderRepository.class
+ru\gb\domain\Product.class
+ru\gb\controller\ProductController.class
+ru\gb\controller\OrderController.class
+ru\gb\FirstSpringBootApplication.class
+ru\gb\repository\ProductRepository.class

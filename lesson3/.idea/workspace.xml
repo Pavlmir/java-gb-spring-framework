@@ -9,14 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c68ced5b-c864-410c-94a9-0001a4488a27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/orders-add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/orders.html" afterDir="false" />
+    <list default="true" id="c68ced5b-c864-410c-94a9-0001a4488a27" name="Changes" comment="add OrderRepository">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/CartConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/CartConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,8 +219,17 @@
       <workItem from="1630658171901" duration="585000" />
       <workItem from="1630747617765" duration="6310000" />
       <workItem from="1630997261611" duration="589000" />
-      <workItem from="1631040817614" duration="4592000" />
+      <workItem from="1631040817614" duration="4785000" />
+      <workItem from="1631112820552" duration="555000" />
     </task>
+    <task id="LOCAL-00001" summary="add OrderRepository">
+      <created>1631051233340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631051233340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,5 +246,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add OrderRepository" />
+    <option name="LAST_COMMIT_MESSAGE" value="add OrderRepository" />
   </component>
 </project>
