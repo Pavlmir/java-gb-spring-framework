@@ -1,0 +1,21 @@
+package ru.gb;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+
+import javax.persistence.EntityManagerFactory;
+
+@Configuration
+@ComponentScan("ru.gb")
+public class AppConfig {
+
+    @Bean // бин для EntityManagerFactory
+    public EntityManagerFactory serviceFactory(){ return new ServiceFactory().getEntityManagerFactory(); }
+
+    @Bean // бин для продукта
+    public ProductDao productDao(EntityManagerFactory emf) {
+        return new ProductDao(emf);
+    }
+}
